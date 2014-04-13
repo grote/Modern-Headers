@@ -1,0 +1,49 @@
+div#headerbox {
+    font-size: 1em;
+    font-family: Liberation Sans, Arial;
+    background: #F8F8FF;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 2px solid #000000;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 6px #888888;
+    overflow: auto;
+}
+
+div#subject {
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-bottom: 0.2em;
+}
+
+div#photo {
+    float: left;
+    margin: 5px;
+}
+
+div#photo img {
+    border:1px solid black;
+}
+
+div.table {
+    display: table;
+}
+
+div.row {
+    display: table-row;
+}
+
+div.headerleft {
+    display: table-cell;
+    padding: 0.1em;
+}
+
+div.headerright {
+    display: table-cell;
+    padding: 0.1em;
+    font-weight: bold;
+}
+
+div.extra {
+    padding: 0.1em;
+}
